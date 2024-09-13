@@ -3,10 +3,38 @@
 @tailwind utilities;
 
 /* Khusbu CSS start */
+.header {
+    @apply flex justify-between items-center p-4 bg-gray-100 border-b border-gray-300;
+    flex: none;
+    height: 70px;
+  
+  }
+  
+  .items {
+    @apply flex justify-end p-4;
+  }
+  
+  .items ul {
+    @apply list-none m-0 p-0 flex;
+  }
+  
+  .items li {
+    @apply mr-5;
+  }
+  
 /* Khusbu CSS and */
 /****************************************************************/
 
 /* Nilesh CSS start */
+
+.logo {
+    @apply ml-5 mr-20;
+  }
+  
+  .logo img {
+    @apply w-40 h-20 p-2 m-2 rounded;
+  }
+
 /* Nilesh CSS and */
 /****************************************************************/
 
