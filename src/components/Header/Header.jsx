@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import logo from './logo.png'
 
 const Header = () => {
@@ -11,7 +12,12 @@ const Header = () => {
       <div className='items'>
         {/* Khusbu work Here */}
         <ul className='flex space-x-6 text-lg'>
-          <li className='hover:text-blue-500 cursor-pointer'>Home</li>
+          <Link to="/">
+            <li className='hover:text-blue-500 cursor-pointer'>Home</li>
+          </Link>
+
+          <Link>
+          </Link>
           <li className='hover:text-blue-500 cursor-pointer'>Contact Us</li>
         </ul>
       </div>
