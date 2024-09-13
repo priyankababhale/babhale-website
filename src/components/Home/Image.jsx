@@ -1,8 +1,13 @@
-import React from 'react'
 
-const Image = ({url, height, width}) => {
+
+import PropTypes from 'prop-types';
+const Image = ({url, height = "h-32", width = "w-32", alt = "image"}) => {
   return (
-    <div>Image</div>
+    <img
+      src={url}
+      alt={alt}
+      className={`${height} ${width} object-cover rounded`}
+    />
   )
 }
 
