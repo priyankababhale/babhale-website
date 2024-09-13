@@ -4,45 +4,96 @@
 
 /* Khusbu CSS start */
 .header {
-    @apply flex justify-between items-center p-4 bg-gray-100 border-b border-gray-300;
-    flex: none;
-    height: 70px;
-  
-  }
-  
-  .items {
-    @apply flex justify-end p-4;
-  }
-  
-  .items ul {
-    @apply list-none m-0 p-0 flex;
-  }
-  
-  .items li {
-    @apply mr-5;
-  }
-  
+  @apply flex justify-between items-center p-4 bg-gray-100 border-b border-gray-300;
+  flex: none;
+  height: 70px;
+
+}
+
+.items {
+  @apply flex justify-end p-4;
+}
+
+.items ul {
+  @apply list-none m-0 p-0 flex;
+}
+
+.items li {
+  @apply mr-5;
+}
+
 /* Khusbu CSS and */
 /****************************************************************/
 
 /* Nilesh CSS start */
 
 .logo {
-    @apply ml-5 mr-20;
-  }
-  
-  .logo img {
-    @apply w-40 h-20 p-2 m-2 rounded;
-  }
+  @apply ml-5 mr-20;
+}
+
+.logo img {
+  @apply w-40 h-20 p-2 m-2 rounded;
+}
 
 /* Nilesh CSS and */
 /****************************************************************/
 
 /* Nikita CSS start */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box1 {
+  width: 536px;
+  height: 136px;
+  margin-top: 200px;
+  left: 50px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 150px;
+  /* font-family: Roboto; */
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 52.73px;
+
+}
+
+.bold{
+  color: #FF6601;
+  ;
+}
+
+
+
+.button {
+  color: white;
+  background: #FF2D2D;
+  padding: 8px 17px 8px 17px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 52.73px;
+  text-align: center;
+  margin-top: 70px;
+
+}
+
+.home-image1 {
+  width: 660px;
+  height: 600px;
+  top: 164px;
+  left: 759px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 100px;
+
+}
+
+
 /* Nikita CSS and */
 /****************************************************************/
 
 /* Swapnil CSS start */
 /* Swapnil CSS and */
 /****************************************************************/
-
