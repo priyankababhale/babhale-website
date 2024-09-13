@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SectionHead = ({text_center}) => {
+const SectionHead = ({text_center = false, heading}) => {
   return (
     <div>SectionHead</div>
   )
