@@ -1,6 +1,5 @@
 
 
-import PropTypes from 'prop-types';
 const Image = ({url, height, width, alt="image" }) => {
   return (
     <div style={{width:width, height:height}}>
