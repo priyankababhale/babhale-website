@@ -1,5 +1,5 @@
 const Section1 = () => {
-  return ( 
+  return (
     <>Section 1</>
   )
 }
