@@ -1,8 +1,15 @@
-import React from 'react'
 
-const Image = ({url, height, width}) => {
+
+const Image = ({url, height, width, alt="image" }) => {
   return (
-    <div>Image</div>
+    <div style={{width:width, height:height}}>
+      <img
+        src={url}
+        alt={alt}
+        width="100%"
+        height="100%"
+      />
+    </div>
   )
 }
 
