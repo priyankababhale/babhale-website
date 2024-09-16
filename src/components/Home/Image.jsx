@@ -1,13 +1,16 @@
 
 
 import PropTypes from 'prop-types';
-const Image = ({url, height = "h-32", width = "w-32", alt = "image"}) => {
+const Image = ({url, height, width, alt="image" }) => {
   return (
+    <div style={{width:width, height:height}}>
     <img
       src={url}
       alt={alt}
-      className={`${height} ${width} object-cover rounded`}
+      width="100%"
+      height="100%"
     />
+    </div>
   )
 }
 
