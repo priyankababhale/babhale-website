@@ -4,9 +4,9 @@
 
 /* Khusbu CSS start */
 .header {
-  @apply flex justify-between items-center p-4 bg-gray-100 border-b border-gray-300;
+  @apply flex justify-between items-center px-40 bg-gray-100 ;
   flex: none;
-  height: 70px;
+  height: 100px;
 
 }
 
@@ -33,6 +33,10 @@
 
 .logo img {
   @apply w-40 h-20 p-2 m-2 rounded;
+}
+
+.hr{
+  border-color: black;
 }
 
 /* Nilesh CSS and */
