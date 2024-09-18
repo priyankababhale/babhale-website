@@ -14,7 +14,6 @@ const Section1 = () => {
             <Button />
           </div></div>
 
-         
         
         </div>
 
