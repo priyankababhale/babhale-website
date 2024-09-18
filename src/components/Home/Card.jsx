@@ -3,7 +3,7 @@ import React from 'react'
 const Card = ({ iconUrl, title, content, width, iconWidth, iconHeight }) => {
   return (
     <div
-      className='my-6'
+      className='my-10'
       style={{ width: width }}
     >
       <img src={iconUrl} alt="icon" width={iconWidth} height={iconHeight} />  {/* there's a bug here, icon is not rendering */}
