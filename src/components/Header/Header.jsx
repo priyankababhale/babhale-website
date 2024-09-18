@@ -9,7 +9,7 @@ const Header = () => {
       <div className='logo'>
         {/* Nilesh work Here */}
         <Link to="/">
-          <img src={logo} alt="Logo" className='h-20 w-auto' />
+          <img src={logo} alt="Logo" />
         </Link>
       </div>
 
@@ -18,8 +18,8 @@ const Header = () => {
         {/* Khusbu work Here */}
         <ul className='flex space-x-6 text-lg'>
 
-          <li className='hover:text-blue-500 cursor-pointer '><Link to="/">Home</Link></li>
-          <li className='hover:text-blue-500 cursor-pointer'><Link to="/contact">Contact Us</Link></li>
+          <li className='hover:text-blue-500 cursor-pointer text-xl font-normal'><Link to="/">Home</Link></li>
+          <li className='hover:text-blue-500 cursor-pointer text-xl font-normal'><Link to="/contact">Contact Us</Link></li>
         </ul>
       </div>
     </div>

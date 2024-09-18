@@ -28,11 +28,11 @@
 /* Nilesh CSS start */
 
 .logo {
-  @apply ml-5 mr-20;
+  @apply  mr-20;
 }
 
 .logo img {
-  @apply w-40 h-20 p-2 m-2 rounded;
+  @apply w-40 h-20 ;
 }
 
 .hr{
