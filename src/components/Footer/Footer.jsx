@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div
       style={{ backgroundColor: "#1F1F1F", color: "#FFF" }}
-      className='flex flex-wrap justify-around'
+      className='flex flex-wrap justify-around pb-10'
     >
       <div
         style={{ width: "210px" }}
@@ -12,8 +12,8 @@ const Footer = () => {
       >
         <h3 className='orange-text font-normal text-4xl font-serif'>Useful Links</h3>
         <ul className="pl-5 list-disc">
-          <li className="text-2xl my-4"><Link to='/'>Home</Link></li>
-          <li className="text-2xl"><Link to='/about'>About Us</Link></li>
+          <li className="text-xl my-3"><Link to='/'>Home</Link></li>
+          <li className="text-xl"><Link to='/about'>About Us</Link></li>
         </ul>
       </div>
 
@@ -22,9 +22,9 @@ const Footer = () => {
         className="my-10"
       >
         <h3 className='orange-text font-normal text-4xl font-serif'>Contact Info</h3>
-        <p className="text-2xl my-4"><img src="src\assets\icons\phone-icon.png" className="footer-icon mr-4" width="25px" height="25px" /> +91-79722-69828</p>
-        <p className="text-2xl"><img src="src\assets\icons\location-icon.png" className="footer-icon mr-4" width="25px" height="25px" />Office Address</p>
-        <p className="pl-10 text-2xl">1st Floor, Plot No. 10/4, STPI IT Park, Gayatri Nagar, Nagpur – 440022</p>
+        <p className="text-xl my-4"><img src="src\assets\icons\phone-icon.png" className="footer-icon mr-4" width="25px" height="25px" /> +91-7020217425</p>
+        <p className="text-xl"><img src="src\assets\icons\location-icon.png" className="footer-icon mr-4" width="25px" height="25px" />Office Address</p>
+        <p className="pl-10 text-xl">1st Floor, Plot No. 10/4, STPI IT Park, Gayatri Nagar, Nagpur – 440022</p>
       </div>
       <div
         style={{ width: "292px" }}
