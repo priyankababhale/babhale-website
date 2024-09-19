@@ -121,7 +121,7 @@ const Section3 = () => {
             Have <span className="orange-text">Business</span> Problems?<br /> Just Dial us with no <span className="orange-text">hesitation</span> We have <span className="orange-text">expert</span> team.
           </h3>
           <p className="font-bold mt-3" style={{color: "#FF2D2D", fontSize: "40px", zIndex: "2"}}>
-            +91-79722-69828
+            +91-7020217425 
           </p>
           <Image 
             url="src/assets/images/image8.png"
