@@ -71,19 +71,19 @@ const Section2 = () => {
       <div class="flex flex-wrap " >
         <div class="flex-1  ">
 
-          <h1 className="font-roboto text-4xl font-bold leading-[46.88px] text-left w-[391px] h-[158px] absolute top-[1752px] left-[70px] ml-8 py-6">
+          <h1 className="font-roboto text-4xl font-bold leading-[46.88px] text-left w-[391px] h-[158px] absolute top-[1752px] left-[70px] ml-8 py-6 mt-10">
             Provide the Best <br /> Solutions to Improve <br /> your Business
           </h1>
 
-          <p className="font-roboto text-[25px] font-medium leading-[29.3px] text-left w-[564px] h-[66px] absolute top-[1950px] left-[70px] ml-8">
+          <p className="font-roboto text-[25px] font-medium leading-[29.3px] text-left w-[564px] h-[66px] absolute top-[1950px] left-[70px] ml-8 mt-10">
             Create some exclusive way to solve our customer problems
           </p>
 
-          <p className="font-roboto text-[25px] font-medium leading-[29.3px] text-left w-[576px] h-[66px] absolute top-[2046px] left-[70px] ml-8">
+          <p className="font-roboto text-[25px] font-medium leading-[29.3px] text-left w-[576px] h-[66px] absolute top-[2046px] left-[70px] ml-8 mt-5">
             Successfully providing the best Business solutions from so many years</p>
 
 
-          <div className="w-[145px] h-[50px] absolute top-[2132px] left-[70px] ml-8">
+          <div className="w-[145px] h-[50px] absolute top-[2132px] left-[70px] ml-8 mt-10">
             <Button
               color='#009DFF'
               background='white'
@@ -95,11 +95,11 @@ const Section2 = () => {
           </div>
 
         </div>
-        <div class="flex-1  mb-5">
+        <div class="flex-1  mb-5 ml-16">
           < Image
             url={"src/assets/images/image4.png"}
-            width="665px"
-            height="490px"
+            width="580px"
+            height="580x"
           />
         </div>
       </div>
