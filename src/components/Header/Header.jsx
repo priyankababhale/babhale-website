@@ -19,7 +19,10 @@ const Header = () => {
         <ul className='flex space-x-6 text-lg'>
 
           <li className='hover:text-blue-500 cursor-pointer text-xl font-roboto'><Link to="/">Home</Link></li>
+          <li className='hover:text-blue-500 cursor-pointer text-xl  font-roboto'><Link to="/portfolio">Portfolio</Link></li>
+          <li className='hover:text-blue-500 cursor-pointer text-xl  font-roboto'><Link to="/service">Services</Link></li>
           <li className='hover:text-blue-500 cursor-pointer text-xl  font-roboto'><Link to="/contact">Contact Us</Link></li>
+
         </ul>
       </div>
     </div>
