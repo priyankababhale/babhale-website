@@ -9,7 +9,7 @@ const Section2 = () => {
       <div >
         <SectionHead
           heading="Free Consultation"
-          btn_flag = 'true' //  condtionally rendering button 
+          btn_flag = 'true' // condtionally rendering button 
         />
       </div>
 
